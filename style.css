@@ -1,0 +1,28 @@
+:root {
+  --color: rgb(176,189,243);
+  --background1: rgb(29,30,30);
+}
+
+body {
+  height: 100vh;
+  border-width: 7px;
+  background: var(--background1);
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center;
+  animation: bg-anim 30s ease infinite;
+  color: var(--color);
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
